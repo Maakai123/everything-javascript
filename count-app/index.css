@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    height: 100vh;
+    background: linear-gradient(to right, lightyellow,lightblue);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    padding:20px;
+   
+}
+
+.cards{
+    background-color: aliceblue;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    margin:10px;
+    padding: 30px 20px;
+}
+
+.result1,.result2,.result3 {
+    text-align: center;
+}
+
+.increase-btn,.cancel-btn,.decrease-btn{
+ background-color:black;
+ color: white;
+  width: 100%;
+  padding:10px;
+  margin-top:5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.anime-img{
+    height: 170px;
+    width: 170px; 
+    border-radius: 50%;
+    border: 3px solid green;
+}
+
+.picture{
+ display:none;
+}
+
+.result1{
+    display:none;
+    color:red;
+}
+
+.out-come{
+background-color: black;
+color: red;
+padding: 10px;
+display: none;
+border-radius: 4px;
+}
